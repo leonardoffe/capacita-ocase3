@@ -1,0 +1,47 @@
+/*BOT*/
+
+/*$main-color-1: #2ecc71;
+$main-color-2: #27ae60;
+$second-color-1: #CC8914;
+$background-color: #363636;*/
+
+.bot {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bot-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bot-talk {
+    background-size: contain;
+    background-color: hsl(240, 82%, 89%);
+    display: flex;
+    padding: 1.5vh;
+    flex-direction: column;
+    border-radius: 7px;
+    justify-content: flex-start;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: #444444;
+    margin-top: 2rem
+}
+
+.bot-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.type-bot {
+
+    display: flex;
+    border-radius: 12px;
+
+}

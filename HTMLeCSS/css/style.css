@@ -1,0 +1,205 @@
+html {
+    font-size: 16px;
+    height: 100%;
+    /*font-style: normal;
+    /*font-family: "Times New Roman", Times, serif;*/
+}
+
+.serif {
+    font-family: 'Baskervville', serif;
+  }
+  
+.sansserif {
+    font-family: 'Secular One','Open Sans', sans-serif;
+  }
+
+.baludo{
+    font-family: 'Baloo Tammudu 2';
+}
+
+.foto{
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+}
+
+body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    background-color: #0096c7;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #0096c7;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 1rem 1rem;
+}
+
+.submit-bot {
+    background-color:hsl(349, 0%, 27%);
+    border-radius: 12px;
+    color: white;
+    padding: 1.12rem 2.25rem;
+    text-decoration: none;
+    margin: 0.31rem 0.25rem;
+    cursor: pointer;  
+}
+
+.inline{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.inline2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-item{
+
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-self: center;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+
+}
+
+.nome{
+    font-size: 2rem;
+    margin-top: 30rem;
+    background-color: aquamarine;
+}
+
+.nome2{
+    margin-top: 3rem;
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+
+.compra{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+.inicial{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 2rem;
+    
+}
+
+.principal{
+    flex-wrap: wrap;
+    height: 20vh;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    align-self: center;
+    height: 50vh;; 
+    justify-content: space-around;
+    
+}
+
+
+input[type=text] {
+    transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 80%;
+}
+
+.botao-bot {
+    background-color: hsl(349, 0%, 27%);
+    border-radius: 12px;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    margin: 0.31rem 0.25rem;
+    cursor: pointer;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.submit-perfil {
+    background-color:hsl(349, 0%, 27%);
+    border-radius: 12px;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    margin: 0.4rem 0.4rem;
+    cursor: pointer;  
+} 
+
+.search2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.filhosearch {
+    margin: 0.3rem 0.3rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    font-size: 25px
+}
+
+.hoodie {
+    background-color: hsl(349, 0%, 27%);
+    border-radius: 7px;
+    color: white;
+    padding: 1.12rem 2.25rem;
+    text-decoration: none;
+    margin: 0.31rem 0.25rem;
+    cursor: pointer;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    margin: 3rem 1rem;
+}
+
+.hoodie-botao{
+    display: flex;
+}
+
+.main2 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}

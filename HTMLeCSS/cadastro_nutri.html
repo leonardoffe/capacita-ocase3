@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro Nutricionistas</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/formulario.css">  
+    <link rel="stylesheet" href="css/calendario_clinica.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <form class="formulario" method="post" action="calendario_nutri.html"> 
+            <p> Porfavor cadastre os seus dados! </p>
+            
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+
+            <div class="field">
+                <label for="CPF">Seu CPF:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu CPF*" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>        
+
+            <div>
+                <h1 for="email" class="field">Qual a sua área de atuação ?</h1>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1">Nutrição Esportiva</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Nutrição Clínica</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Nutrição Alimentícia</label><br><br>
+            </div>
+
+            <!-- O segundo valor estará selecionado inicialmente -->
+            <div>
+                <label for="telefone">Qual o preço por hora da sua consulta: </label>
+                <input id="telefone" name="telefone" placeholder="Digite o valor da sua consulta por hora">
+            </div>
+            <div class="preço">
+                <label for="telefone">Qual o preço da sua consulta: </label>
+                <input id="telefone" name="telefone" placeholder="Digite o valor da sua consulta">
+            </div>
+            <div>
+                <h2 class="field">Caso queira coloque em anexo o seu currículo:</h2>
+            <label for="files">Select files:</label>
+            <input type="file" id="files" name="files" multiple><br><br>
+            </div>
+            
+            <div class="field radiobox">
+                <span class="field">Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+
+            <input class = "input2" type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
