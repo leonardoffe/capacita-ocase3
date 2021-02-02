@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang = "pt-BR">
     <head>
-        <title>Clinica</title>
+        <title>Calendário Nutricionista</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/calendario_nutri.css">
     </head>
 
     <body>
         <main>
+            
+            <p>Em qual horário você está disponível?</p>
+
             <div class="calend">
 
                 <div class="month-indicator">
@@ -113,39 +117,51 @@
                 </div>
             </div>
         <div>
-            <div class="horario">
-            <label for="appt">Horário de inicio</label>
 
-            <input type="time" id="appt" name="appt"
-                min="09:00" max="18:00" required>
+            <div>
+                <label for="a">Definir horário de atendimento: </label>
+                    <select name="select">
+                        <option value="valor1">13:00</option>
+                        <option value="valor2">14:00</option>
+                        <option value="valor3">15:00</option>
+                        <option value="valor4">16:00</option>
+                        <option value="valor5">17:00</option>
+                        <option value="valor6">18:00</option>
+                        <option value="valor7">19:00</option>
+                        <option value="valor8">20:00</option>
+                    </select>
+            </div>
+            
+            
+            <div>
+                <label for="a">Definir duração do atendimento: </label>
+                    <select name="select">
+                        <option value="valor1">1 hora</option>
+                        <option value="valor2">2 horas</option>
+                        <option value="valor3">3 horas</option>
+                        <option value="valor4">4 horas</option>
+                    </select>
+            </div>
+            
+
+            <div>
+                    <label for="a">Preferência de localidade: </label>
+                        <select name="select">
+                            <option value="valor1">Clínica X</option>
+                            <option value="valor2">Clínica Y</option>
+                            <option value="valor3">Clínica W</option>
+                            <option value="valor4">Clínica Z</option>
+                        </select>
+
+            </div>    
+            
+            <div>
+
+                <input class = "botaoenviar" type="submit" value="Confirmar">
+
             </div>
 
-            <div class="horario">
-                <label for="appt">Horário de término</label>
-    
-                <input type="time" id="appt" name="appt"
-                    min="09:00" max="18:00" required>
-                </div>
-
-            <div class="horario">
-                <label for="aa">Clique no botão para nos sabermos a localizção da sua Clinica:</label>
-                <input type="submit" id="aa" onclick="getLocation()" value="Localização Atual">
-                <p id="demo"></p>
-                <script>
-                var x = document.getElementById("demo");
-                function getLocation() {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(showPosition);
-                } else { 
-                    x.innerHTML = "A localização não é suportada por este Browser.";
-                }
-                }
-                function showPosition(position) {
-                x.innerHTML = "Latitude: " + position.coords.latitude + 
-                "<br>Longitude: " + position.coords.longitude;
-                }
-                </script>
-            </div>
+        </div>
             
             
         </div>       
