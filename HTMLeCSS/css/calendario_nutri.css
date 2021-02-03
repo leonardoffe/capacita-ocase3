@@ -20,12 +20,16 @@
   --blue-grey-800: #243b53;
   --blue-grey-900: #102a43;
 }
+
 .calend{
   width: 350px;
   padding: 25px;
   border:1px solid #ccc;
   margin: 18px 0;
+  background: rgba(255, 255, 255, 0.73);
+  border-radius: 20px;
 }
+
 .month-indicator {
   color: black;
   text-align: center;
@@ -84,11 +88,60 @@
   color: black;
 }
 
-
-
 body {
+  display: flex;
+}
+
+main{
+  background: linear-gradient(180deg, rgba(0, 119, 182, 0.7) 0%, #0096C7 48.96%, rgba(0, 180, 216, 0.45) 100%);
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+h1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 1rem;
+}
+
+label{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #023E8A;
+}
+
+input{
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid #023E8A;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #023E8A;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem;
+}
+
+select{
+  width: 50%;
 }

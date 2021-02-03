@@ -1,5 +1,5 @@
 main{
-    background: #00B4D8;
+    background: linear-gradient(180deg, rgba(0, 119, 182, 0.7) 0%, #0096C7 48.96%, rgba(0, 180, 216, 0.45) 100%);
     width: 100vw;
     height: 100vh;
     display:flex;
