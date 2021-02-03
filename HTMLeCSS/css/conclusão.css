@@ -6,8 +6,9 @@
     margin-bottom: 5%;
     border-bottom: 30px solid #78b13f;
     border-right: 30px solid #78b13f;
+    border-radius: 5%;
   }
 .palavra{
-    margin-bottom: 18%;
+    margin-bottom: 5%;
     font-size: 21px;
 }

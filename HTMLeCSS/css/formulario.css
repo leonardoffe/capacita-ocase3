@@ -1,11 +1,16 @@
 .formulario{
-    width: 500px;
-    padding: 40px;
-    border:1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    height: 600px;
+    padding: 75px;
+    border: 10px solid #ccc;
+    border-radius: 8%;
 }
 .formulario p{
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .field{
     width: 100%;
@@ -14,7 +19,7 @@
 .field label, 
 .field span{
     padding-left: 10px;
-    font-size: 1.1em;
+    font-size: 1.0em;
     display: block;
     width: 100%;
 }
@@ -26,7 +31,7 @@ input[type=text],
 input[type=email],
 input[type=tel],
 textarea{
-    width: 100%;
+    width: 90%;
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
@@ -43,7 +48,7 @@ textarea{
     outline: 0;
     cursor: pointer;
     width: 100px;
-    margin: 15px auto;
+    margin: 45px auto;
     text-align: center;
     border-radius: 15px;
 }
@@ -64,13 +69,18 @@ textarea{
     margin: 15px 0;
 }
 
-.horario{
+.horario {
     margin: 15px 0;
+}
+.horario2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .botaoenviar2{
     display: block;
-    background-color: #ccc;
+    background-color: hsl(155, 46%, 59%);
     height: 35px;
     border: none;
     outline: 0;

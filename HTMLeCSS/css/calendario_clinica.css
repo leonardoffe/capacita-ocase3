@@ -21,25 +21,29 @@
     --blue-grey-900: #102a43;
   }
   .calend{
-    width: 350px;
-    padding: 25px;
-    border:1px solid #ccc;
-    margin: 18px 0;
+    width: 700px;
+    padding: 45px;
+    border: 10px solid #ccc;
+    margin: 50px;
+    border-radius: 10%;
 }
   .month-indicator {
     color: black;
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 30px;
   }
   
   .day-of-week,
   .date-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    font-size: 30px;
   }
   
   .day-of-week {
-    margin-top: 1.25em;
+    margin-top: 2.2em;
+    margin-right: 5%;
   }
   
   .day-of-week > * {
@@ -53,7 +57,9 @@
   
   /* Dates */
   .date-grid {
+    font-size: 50px;
     margin-top: 0.5em;
+    margin-left: 5%;
   }
   
   /* Positioning the first day */

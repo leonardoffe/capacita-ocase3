@@ -1,49 +1,41 @@
 html {
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
-    /*font-style: normal;
-    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-style: normal;*/
+    font-family: "Times New Roman", Times, serif;
 }
-
-.serif {
-    font-family: 'Baskervville', serif;
-  }
-  
-.sansserif {
-    font-family: 'Secular One','Open Sans', sans-serif;
-  }
-
-.baludo{
-    font-family: 'Baloo Tammudu 2';
-}
-
 
 body {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
     height: 100%;
     background-color: #0096c7;
 }
 
 main {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     background-color: #0096c7;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    width: 100%;
+    align-content: flex-end;
+    align-self: flex-end;
 }
 
 .search{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: stretch;
-    margin: 1rem 1rem;
 }
 
 .submit-bot {
@@ -68,4 +60,16 @@ input[type=text]:focus {
     display: flex;
     flex-direction: row;
     height: 100%;
+}
+
+.img{
+    border-radius: 50%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

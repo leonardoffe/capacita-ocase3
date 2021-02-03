@@ -17,7 +17,7 @@
         <main>
             <div class="calend">
                 <div class="month-indicator">
-                <time datetime="2020-02"> Fevereiro 2020 </time>
+                <time datetime="2020-02"> Fevereiro 2021 </time>
                 </div>
                 <div class="day-of-week">
                 <div>Seg</div>
@@ -116,20 +116,22 @@
                 </div>
             </div>
         <div>
-            <div class="horario">
-            <label for="appt">Horário de inicio</label>
+            <div class="row">
+                <div class="horario">
+                <label for="appt">Horário de inicio:</label>
 
-            <input type="time" id="appt" name="appt"
-                min="09:00" max="18:00" required>
-            </div>
-
-            <div class="horario">
-                <label for="appt">Horário de término</label>
-    
                 <input type="time" id="appt" name="appt"
                     min="09:00" max="18:00" required>
                 </div>
 
+                <div class="horario">
+                    <label for="appt">Horário de término:</label>
+        
+                    <input type="time" id="appt" name="appt"
+                        min="09:00" max="18:00" required>
+                    </div>
+            </div>
+            <div>
             <div class="horario">
                 <label for="aa">Clique no botão para nos sabermos a localizção da sua Clinica:</label>
                 <input type="submit" id="aa" onclick="getLocation()" value="Localização Atual">
@@ -149,15 +151,8 @@
                 }
                 </script>
             </div>
-            
-            <div>
-                <label for="a">Qual será o tipo de atendimento ? </label>
-            <select name="select">
-                <option value="valor1">Online</option>
-                <option value="valor2">Presencial</option>
-            </select>
-            </div>
-            <div>
+
+            <div class="horario">
                 <label for="a">Qual é o preço médio da consulta ? </label>
             <select class = "horario" name="select">
                 <option value="valor1">Valor médio de 0 a 100 R$</option>
@@ -167,6 +162,14 @@
                 <option value="valor1">Valor médio de 400 a 500 R$</option>
                 <option value="valor1">Valor médio de 500 a 600 R$</option>
                 <option value="valor1">Valor médio maior que 600 R$</option>
+            </select>
+            </div>
+            
+            <div>
+                <label for="a">Qual será o tipo de atendimento ? </label>
+            <select name="select">
+                <option value="valor1">Online</option>
+                <option value="valor2">Presencial</option>
             </select>
             </div>
         </div>
