@@ -1,0 +1,13 @@
+.checkmark {
+    display: flex;
+    transform: rotate(45deg);
+    height: 250px;
+    width: 120px; 
+    margin-bottom: 5%;
+    border-bottom: 30px solid #78b13f;
+    border-right: 30px solid #78b13f;
+  }
+.palavra{
+    margin-bottom: 18%;
+    font-size: 21px;
+}
