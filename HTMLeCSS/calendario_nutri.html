@@ -1,22 +1,26 @@
+<!-- REAL -->
 <!DOCTYPE html>
 <html lang = "pt-BR">
     <head>
-        <title>Calendário Nutricionista</title>
+        <title>Calendário Nutricionistas</title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/calendario_nutri.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/calendario_clinica.css">
+        <link rel="stylesheet" href="css/barra_menu.css">    
+        <link rel="stylesheet" href="css/calendario_nutri.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     </head>
-
     <body>
         <main>
-            
-            <h1>Em qual horário você está disponível?</h1>
+            <h1>Quando você irá trabalhar ? </h1>
 
             <div class="calend">
 
                 <div class="month-indicator">
-                    <time datetime="2020-02"> Fevereiro 2020 </time>
+                    <time datetime="2020-02"> Fevereiro 2021 </time>
                 </div>
 
                 <div class="day-of-week">
@@ -116,62 +120,59 @@
                     </button>
                 </div>
             </div>
-        <div>
-
-            <div class="box">
-                <label for="a">Definir horário de atendimento: </label><br>
-                    <select name="select">
-                        <option value="valor1">13:00</option>
-                        <option value="valor2">14:00</option>
-                        <option value="valor3">15:00</option>
-                        <option value="valor4">16:00</option>
-                        <option value="valor5">17:00</option>
-                        <option value="valor6">18:00</option>
-                        <option value="valor7">19:00</option>
-                        <option value="valor8">20:00</option>
-                    </select>
-            </div>
-            
-            
-            <div class="box">
-                <label for="a">Definir duração do atendimento: </label><br>
-                    <select name="select">
-                        <option value="valor1">1 hora</option>
-                        <option value="valor2">2 horas</option>
-                        <option value="valor3">3 horas</option>
-                        <option value="valor4">4 horas</option>
-                    </select>
-            </div>
-            
-
-            <div class="box">
-                    <label for="a">Preferência de localidade: </label><br>
+        
+            <div>
+                <div class="box">
+                    <label for="a">Definir horário de atendimento: </label><br>
                         <select name="select">
-                            <option value="valor1">Clínica X</option>
-                            <option value="valor2">Clínica Y</option>
-                            <option value="valor3">Clínica W</option>
-                            <option value="valor4">Clínica Z</option>
+                            <option value="valor1">13:00</option>
+                            <option value="valor2">14:00</option>
+                            <option value="valor3">15:00</option>
+                            <option value="valor4">16:00</option>
+                            <option value="valor5">17:00</option>
+                            <option value="valor6">18:00</option>
+                            <option value="valor7">19:00</option>
+                            <option value="valor8">20:00</option>
                         </select>
+                </div>
+                
+                
+                <div class="box">
+                    <label for="a">Definir duração do atendimento: </label><br>
+                        <select name="select">
+                            <option value="valor1">1 hora</option>
+                            <option value="valor2">2 horas</option>
+                            <option value="valor3">3 horas</option>
+                            <option value="valor4">4 horas</option>
+                        </select>
+                </div>
+                
+    
+                <div class="box">
+                        <label for="a">Preferência de localidade: </label><br>
+                            <select name="select">
+                                <option value="valor1">Clínica X</option>
+                                <option value="valor2">Clínica Y</option>
+                                <option value="valor3">Clínica W</option>
+                                <option value="valor4">Clínica Z</option>
+                            </select>
+    
+                </div>    
+                
+                <form action="conclusão2.html" class="box">
+                    <input class = "botaoenviar" type="submit" value="Confirmar">
+                </form>    
+            </div>
 
-            </div>    
-            
-            <div class="box">
-
-                <input class = "botaoenviar" type="submit" value="Confirmar">
-
-            </div>      
-            
         </main>
-
         <footer>
             <ul class = "bottom-menu">
 
-                <li class = "bottom-icon"><a href="clinica.html"><img src="Imagens/calendario.png"  width="30" height="30" alt="perfil"></a></li>
-                <li class = "bottom-icon"><a href="profissionais.html"><img src="Imagens/contrato.png"  width="30" height="30" alt="home"></a></li>
-                <li class = "bottom-icon"><a href="perfil.html"><img src="Imagens/perfil.png"  width="30" height="30" alt="perfil"></a></li>
+                <li class = "bottom-icon"><a href="calendario_nutri.html"><img src="Imagens/calendario.png"  width="55" height="50" alt="perfil"></a></li>
+                <li class = "bottom-icon"><a href="avisos.html"><img src="Imagens/sino.png"  width="60" height="55" alt="home"></a></li>
+                <li class = "bottom-icon"><a href="cadastro_nutri.html"><img src="Imagens/perfil.png"  width="60" height="55" alt="perfil"></a></li>
                 
             </ul>   
         </footer>
-    
     </body>
 </html> 
