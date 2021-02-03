@@ -95,11 +95,11 @@ body {
 main{
   background: linear-gradient(180deg, rgba(0, 119, 182, 0.7) 0%, #0096C7 48.96%, rgba(0, 180, 216, 0.45) 100%);
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: scroll;
 }
 
 h1{
@@ -139,9 +139,41 @@ input{
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 1.5rem;
+  margin-top: 1rem;
 }
 
 select{
   width: 50%;
+}
+
+.bottom-menu {
+  bottom: 0;
+  height: 5vh;
+  width: 100%;
+  box-shadow: 0 0 0.18rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  align-self: flex-end;
+  justify-content: space-evenly;
+  background-color:#00b4d8;
+}
+
+.bottom-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 3rem;
+  padding: 0.5rem;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%; 
 }
