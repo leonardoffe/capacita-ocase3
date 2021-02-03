@@ -17,7 +17,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #00B4D8;
+    background: linear-gradient(180deg, rgba(0, 119, 182, 0.7) 0%, #0096C7 48.96%, rgba(0, 180, 216, 0.45) 100%);
     height: 100%;
 }
 
@@ -76,22 +76,10 @@ input[type=text] {
 input[type=text]:focus {
     width: 80%;
 }
-/* .main2 {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-} */
 
 .img{
     border-radius: 20%;
     margin-right: 10%;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .compra{
@@ -99,11 +87,3 @@ input[type=text]:focus {
     flex-direction: row-reverse;
     justify-content: space-between;
 }
-
-/* 
-.compra2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-right: 20%;
-} */
