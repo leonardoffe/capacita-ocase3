@@ -76,14 +76,6 @@ input[type=text]:focus {
     width: 80%;
 }
 
-.img{
-    border-radius: 20%;
-    margin-right: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .compra{
     display: flex;
     flex-direction: row-reverse;
@@ -102,4 +94,59 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 3.2rem;
+}
+
+.icone{
+    width: 3rem;
+}
+
+.inline{
+    display: inline-flex;
+    width: 100%;
+}
+
+.boxtwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 6rem;
+}
+
+a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.conteiner{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    padding: 3rem;
 }
