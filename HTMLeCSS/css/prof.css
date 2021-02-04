@@ -65,8 +65,15 @@
 .compra{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
 }
 
 .hoodie {
@@ -100,21 +107,28 @@
 .titulo{
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
     margin: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #023E8A;
 }
 
 .corpo{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    color: #000000a6;
     margin: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 119, 182, 0.7);
+
+
 }
 
-.img{
-    border-radius: 40%;
+.imagi{
+    border-radius: 1000px;
+    width: 200px;
+    height: 135px;
 }
