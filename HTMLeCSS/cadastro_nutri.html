@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/formulario.css">  
-    <link rel="stylesheet" href="css/calendario_clinica.css">
     <link rel="stylesheet" href="css/barra_menu.css">    
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
 </head>
@@ -17,7 +16,7 @@
     </header>
     <main>
         <form class="formulario" method="post" action="pagamentonutri.html"> 
-            <p> Porfavor cadastre os seus dados! </p>
+            <h1>Por favor, cadastre os seus dados!</h1>
             
             <div class="field">
                 <label for="nome">Seu Nome:</label>
@@ -40,7 +39,7 @@
             </div>        
 
             <div>
-                <h1 for="email" class="field">Qual a sua área de atuação ?</h1>
+                <h2 for="email" class="field">Qual a sua área de atuação ?</h2>
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1">Nutrição Esportiva</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -48,10 +47,15 @@
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                 <label for="vehicle3">Nutrição Alimentícia</label><br><br>
             </div>
+            <div>
+                <h2 class="field">Caso queira coloque em anexo o seu currículo:</h2>
+            <label for="files">Select files:</label>
+            <input type="file" id="files" name="files" multiple><br><br>
+            </div>
 
             <!-- O segundo valor estará selecionado inicialmente -->
             <div>
-                <label for="telefone">Qual o preço por hora da sua consulta: </label>
+                <label for="telefone">Qual o preço por hora da sua consulta:</label>
                 <input id="telefone" name="telefone" placeholder="Digite o valor da sua consulta por hora">
             </div>
 
@@ -59,14 +63,9 @@
                 <label for="telefone">Qual é o valor da consulta: </label>
                 <input id="telefone" name="telefone" placeholder="Digite o valor da sua consulta">
             </div>
-            <div>
-                <h2 class="field">Caso queira coloque em anexo o seu currículo:</h2>
-            <label for="files">Select files:</label>
-            <input type="file" id="files" name="files" multiple><br><br>
-            </div>
             
-            <div class="field radiobox">
-                <span class="field">Deseja receber nossas novidades?</span>
+            <div class="horario">
+                <span class="field"><h2>Deseja receber nossas novidades?</h2></span>
                 <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
                 <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
             </div>
