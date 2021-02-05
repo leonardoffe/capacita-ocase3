@@ -33,6 +33,16 @@ h1{
     color: #023E8A;
 }
 
+a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
 h2{
     font-style: normal;
     font-weight: normal;
@@ -49,6 +59,18 @@ div.inlainy{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+div.fim{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(247, 87, 87, 0.85);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .prefooter{
