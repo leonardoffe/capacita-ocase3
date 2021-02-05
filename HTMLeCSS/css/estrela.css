@@ -1,0 +1,9 @@
+.estrelas{
+    display: flex;
+    flex-direction: row;
+}
+
+.leo{
+    width: 20px;
+    height: 20px;
+}
